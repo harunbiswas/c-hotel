@@ -1,0 +1,15 @@
+{
+  "name": "hotel-menagement-system",
+  "version": "1.0.0",
+  "description": "It is a web Developement Project for web Development  class",
+  "main": "index.ja",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass sass/main.scss style.css -w"
+  },
+  "author": "Harun Biswas Rubel",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

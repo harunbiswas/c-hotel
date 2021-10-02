@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../assets/images/home-bg.webp); }
+  .header__top {
+    height: 300px;
+    background-image: linear-gradient(to right bottom, rgba(23, 17, 38, 0.94), rgba(23, 17, 39, 0.94));
+    text-align: center;
+    border-bottom: 3px solid #ff9000;
+    position: relative;
+    padding-top: 40px; }
+    .header__top--navbar {
+      width: 1520px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%); }
+      .header__top--navbar-social, .header__top--navbar-main {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 40px; }
+        .header__top--navbar-social a, .header__top--navbar-main a {
+          color: #fff;
+          font-size: 16px;
+          text-decoration: none;
+          text-transform: uppercase;
+          transition: 0.4s; }
+          .header__top--navbar-social a:hover, .header__top--navbar-main a:hover {
+            color: #ff9000; }
+      .header__top--navbar-social {
+        gap: 20px; }
+
+.btn {
+  background-color: transparent;
+  border: none; }
+  .btn.btn-search {
+    color: #fff;
+    font-size: 24px;
+    transition: 0.4s; }
+    .btn.btn-search:hover {
+      color: #ff9000; }
